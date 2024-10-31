@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.qa_dq2qa_migration {}
+
+
+.qa_dq2qa_migration .qa_dw_header {
+    background: #ddd;
+    padding: 10px;
+	font-size:17px;
+}
+
+.qa_dq2qa_migration .qa_dw_header span.total {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.qa_dq2qa_migration .qa_dw_start {
+    padding: 10px;
+    background: #e1e1e1;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 40px auto;
+}
+
+
+
+#myProgress {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  display:none;
+}
+
+#myBar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: #63AAAC;
+}
